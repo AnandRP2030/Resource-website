@@ -1,0 +1,65 @@
+*{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* design inspiration container  */
+
+.design-inspiration {
+    height: 510px;
+    width: 1200px;
+    text-align: center;
+    
+    /* background-color: rgb(246, 238, 238); */
+    margin: auto;
+    position: relative;
+    top: 100px;
+    
+    display:grid;
+    grid-template-columns: repeat(3, 3fr); 
+    margin-bottom: 100px;
+}
+
+.sub-title-icon{
+    font-size: 25px;
+    z-index: 2;
+    color: yellow;
+}
+
+.resource-sub-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    top: 100px;
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+.design-inspiration-box{
+    /* background-color: rgb(245, 242, 242);     */
+    margin: auto;
+    width: 90%;
+    height: 200px;
+}
+
+
+.resource-icon{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    /* margin-bottom: 5px; */
+}
+
+.resource-heading{
+    text-decoration: none;
+}
+.resource-text {
+    margin-top: 5px;
+}
+
+
